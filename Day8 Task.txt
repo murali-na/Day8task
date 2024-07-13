@@ -1,0 +1,69 @@
+1. Write a Java program that declares four integer variables: a, b, c, and d. Then, write an if statement that checks whether the sum of a and b is greater than the sum of c and d. If the condition is true, the program should output a message indicating that the sum of a and b is greater than the sum of c and d
+package basicJavaprograms;
+
+public class Prcc {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+		int b = 20;
+		int sum = a + b;
+		int c = 3;
+		int d = 4;
+		int sum1 = c + d;
+
+		if (sum > sum1) {
+			System.out.println("sum of a and b is greater than the sum of c and d");
+		} else {
+			System.out.println("false");
+		}
+	}
+}
+
+
+2. Have a variable store an integer. Create an if statement to find out if it's an even number.
+Hint: Use operator %.
+int i = 2;
+		if (i % 2 == 0) {
+			System.out.println("Yes its even number");
+
+		} else {
+			System.out.println("false");
+		}
+
+
+3. Write a program to print the characters from A to Z.
+	char start = 'A';
+		char end = 'Z';
+
+		for (char ch = start; ch <= end; ch++) {
+			System.out.println(ch);
+
+4. Write a java program to get 2 numbers from the user and swap their values without any loss of data. You can make use of additional variable for swapping. Print the corresponding swapped values of the two numbers as output in the console.
+5. Write a program to check if a number is prime or not.
+int[] prime = { 2, 3, 5, 7, 11 };
+		for (int z = 2; z <= prime.length / 2; z++) {
+			if (prime.length % z == 1) {
+				System.out.println("is a prime");
+6. Write a program to print the factorial of a given number.
+For Ex: 5!=120
+7. Write a program to print the length of the given string.
+String msg="Guvi Geek"
+	String msg = "Guvi Geek";
+		int length = msg.length();
+		System.out.println(msg.length());
+8. Write a program To print "Welcome to Guvi" 10 times.
+	String msg1 = "Welcome to Guvi";
+		for(int e =0; e<=10; e++) {
+			System.out.println(msg);
+		}
+9. Write a program to check whether the person is a senior citizen or not.
+	int h = 60;
+		if (h < 60) {
+			System.out.println("is not senior citizen");
+		} else {
+			System.out.println("is senior citizen");
+		}
+10.
+ Write a program to Count Number of Digits in an Integer.
+
